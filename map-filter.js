@@ -1,23 +1,44 @@
-const numbers = [2, 3, 4 , 5, 6, 8, 9];
-// const output = []
-// for(let i = 0; i < numbers.length; i++){
+const numbers = [2, 3, 4, 5, 6, 7];
+
+// for (let i = 0; i < numbers.length; i++) {
 //     const element = numbers[i];
-//     const result = element * element;
-//     output.push(result);
-     
+//     const square = element * element;
+//     console.log(square);
 // }
-// function square (element){
-//     return element*element;
+// const result = numbers.filter(x => x > 4);
+// console.log(result);
+
+// function square (element) {
+//     return element * element;
 // }
-// function square = element => element*element;
 
-// function square = x => x*x;
+// const result = numbers.map(square);
+// console.log(result);
 
-// const result = numbers.map(function(element){
-//     return element*element;
+// const result = numbers.map(function (element) {
+//     return element * element;
 // })
 
-// const result = numbers.map(x => x * x);
 // console.log(result);
-const bigger = numbers.filter(x => x > 5);
-console.log(bigger);
+
+// const result = numbers.filter(x => x < 5);
+// console.log(result);
+
+// const result = numbers.find(x => x > 5);
+// console.log(result)
+
+const info = [
+    {fname: 'Wahidul', lname: 'Islam'},
+    {fname: 'Abdul', lname: 'Kadir'},
+    {fname: 'Abdus', lname: 'Salam'}
+]
+
+// const fullName = info.map(x => x.fname + ' ' + x.lname);
+// console.log(fullName);
+ 
+
+// const result = info.filter(x => x.fname.length > 5);
+// console.log(result);
+
+const result = info.find(x => x.fname.length > 5);
+console.log(result);
